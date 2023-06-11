@@ -9,7 +9,7 @@ def get_best_location_estimation(gmaps_result):
         else:
             return result
 
-gmaps = googlemaps.Client(key='AIzaSyAuFGMlJLrLutpttzvFIp9mAlkb5mVpYNk')
+gmaps = googlemaps.Client(key='')
 
 import ipdb;ipdb.set_trace()
 # Geocoding an address
