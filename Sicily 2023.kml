@@ -1,0 +1,2353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sicily 2023</name>
+    <description/>
+    <Style id="icon-1504-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1504-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1504-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1504-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1504-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1517-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1517-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1517-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1517-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1517-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1546-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1546-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1546-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1546-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1546-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1577-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1577-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1577-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1596-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1596-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1596-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1596-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1596-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1598-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1598-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1598-FBC02D-nodesc-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1598-FBC02D-nodesc-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1598-FBC02D-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1598-FBC02D-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1598-FBC02D-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1602-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1602-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1602-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1604-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1604-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1604-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1604-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1604-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1604-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1604-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1604-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1604-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1604-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1604-FFD600-nodesc-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1604-FFD600-nodesc-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1604-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1604-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1604-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1636-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1636-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1636-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1636-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1636-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1670-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1670-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1670-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1670-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1670-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1670-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1670-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1670-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1670-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1670-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1670-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1670-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1670-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1670-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1670-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1670-FBC02D-nodesc-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1670-FBC02D-nodesc-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1670-FBC02D-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1670-FBC02D-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1670-FBC02D-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1670-FFD600-nodesc-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1670-FFD600-nodesc-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1670-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1670-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1670-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1671-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1671-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1671-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1671-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1671-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1671-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1671-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1671-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1671-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1671-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1671-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1671-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1671-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1671-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1671-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1671-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1671-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1671-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1671-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1671-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1681-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1681-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1681-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1681-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1681-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1681-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1681-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1681-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1681-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1681-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1681-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1681-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1681-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1681-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1681-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1684-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1684-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1684-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1684-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1684-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1697-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1697-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1697-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1697-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1697-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1701-3949AB-nodesc-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1701-3949AB-nodesc-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1701-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1701-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1701-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1720-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1720-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1720-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1833-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1833-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1833-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1833-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1833-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1855-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1855-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1855-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1855-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1855-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>HQ (airport, apartment, bus station, ferry station, car rental)</name>
+      <Placemark>
+        <name>Catania Airport</name>
+        <styleUrl>#icon-1504-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            15.0657746,37.4673046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malta International Airport</name>
+        <styleUrl>#icon-1504-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.4867114,35.8528531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Museums castles and churches</name>
+      <Placemark>
+        <name><![CDATA[Saint-John's Cathedral Museum‏]]></name>
+        <description><![CDATA[St. John's Co Cathedral[1]is unremarkable from the outside but incredibly ornate on the inside. Each of the different 'langues' (knights of a particular nationality had their own langue) has a their own chapel lined along the side of the nave in which they try and outdo each other in splendour.<br>https://wikitravel.org/en/Valletta]]></description>
+        <styleUrl>#icon-1671-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.512312,35.8980423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Temple of Heracles</name>
+        <description>The first temple east of the entrance is the Tempio di Ercole or Temple of Hercules - long, thin and about 1/3 standing. It is the oldest of the temples, built towards the end of the 6th century BC. Next to it are some interesting deep ruts formed by ancient carriages.</description>
+        <styleUrl>#icon-1671-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.586252,37.2902185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Temple of Concordia, Agrigento</name>
+        <description>Next heading east is the large Tempio della Concordia or Temple of Concord - a very impressive almost complete structure built around 440-450 BC.</description>
+        <styleUrl>#icon-1671-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.5920771,37.2896571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tempio di Giunone</name>
+        <description>The track the continues above small cliffs at the edge of the ridge to the Tempio di Giunone or Temple of Juno. Partially ruined, it offers a great spot to look back down the ridge to the other temples.</description>
+        <styleUrl>#icon-1671-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.6001661,37.2886256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Temple of Olympian Zeus</name>
+        <description>To the west of the main entrance is the massive Tempio di Giove or Temple of Jupiter which was never completed and is now in ruins with little structure visible. Most notable is one of the huge stone statues now lying on the ground.</description>
+        <styleUrl>#icon-1671-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.5843453,37.2908116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tomb of Terone</name>
+        <description>Beyond the main temple site is the small, but interesting Tomba di Terone.</description>
+        <styleUrl>#icon-1671-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.585984,37.2888393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Archaeological Museum "Pietro Griffo" of Agrigento]]></name>
+        <description>Archaeological Museum (Museo Archeologico Regionale “Pietro Griffo”), Contrada San Nicola 12, ☎ +39 092 240 1565 (polomuseale.ag@regione.sicilia.it), [x]. The Museum is about half way from the station to the Valley of the Temples and contains numerous artifacts taken from the site. It is purposely built to accommodate a huge telamon, reconstructed from pieces. The residential quarters are on the other side of the road. You can get a ticket for both the Valley of the Temples and the museum.. edit</description>
+        <styleUrl>#icon-1636-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.5889019,37.2969514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cattedrale di San Gerlando</name>
+        <description>The large cathedral is uphill in the northwestern corner of the town center on Via Duomo. Built around 1000 AD it has since been altered several times but today offers grand views across the valley. The cathedral is closed from 12-4PM.</description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.5759265,37.3140574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa di Santa Maria dei Greci</name>
+        <description>Chiesa di Santa Maria dei Greci, Salita Santa Maria dei Greci. An interesting Norman church built some 1000 years ago on the site of a an ancient Greek temple. Free. edit</description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.5778332,37.3129744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cathedral of Santa Maria La Nuova </name>
+        <description><![CDATA[Cathedral of Santa Maria La Nuova (Duomo di Santa Maria La Nuova), Corso Vittorio Emanuele, 92027 Licata. It was built in the 15th century in Renaissance style and has nave with two aisles. Also, inside, it houses the very famous Black Christ's Chapel. July 11th is the feast day for the commemoration of the Black Crucifix, which was saved from the flames, during the tragic invasion of the Turks in 1553. This event was interpreted as a miracle of the Licatesi, who every year celebrate a Holy Mass in honor of the crucifix.]]></description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.9403073,37.0991138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antiquarium di Eraclea Minoa</name>
+        <description>Antiquarium di Eraclea Minoa, Via Esculapio, 92011 Eraclea Minoa [2]. On display is nice collection of pieces of pottery, ceramics, architectural fragments found from the nearby Greek villages.</description>
+        <styleUrl>#icon-1636-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.2822102,37.393966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa del Carmine</name>
+        <description>Carmine Church (Chiesa del Carmine), Via Lo Magro, 92010 Caltabellotta. Its façade from the 16th century displays the different stages of construction. There dominates very imposing bell tower and the very church with the horizontal lines of its façade. The vertical axis lines up arched portal with the window above and topped by the stepped gable with the nishe in the middle, where is situated the Blessed Virgin Mary. The interior has a single nave with a barrel vault and six side chapels adorned by many statues.</description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.2159151,37.5768327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cattedrale Caltabellotta</name>
+        <description><![CDATA[Cathedral (Cattedrale Caltabellotta), Via Madrice, 92010 Caltabellotta. It has three naves structured from the 13th century. At the initial stage it was Mosque, but later in the 11th century it was reconstructed into the Cathedral. The highlight of the cathedral is the chapel of "Santa Maria della Catena".]]></description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.2188668,37.5789623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[chiesa dell'Itria]]></name>
+        <description><![CDATA[Church of Itria (Chiesa dell'Itria), Via Perrone, 92010 Caltabellotta. Despite its simplicity, the building of 16th century expresses symmetry, good artistic taste and harmony in the lines and represents one of the most important monuments of the town. The façade is cuspidated and adorned by a gray stone portal supported by four columns and broken pediment.]]></description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.2177955,37.5764325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Civic Museum of Palazzo della Signoria Caltabellotta</name>
+        <description>Civic Museum of the Palazzo della Signoria (Civic Museum of Palazzo della Signoria Caltabellotta), Via Madrice, 3, 92010 Caltabellotta. In the palace is housed a museum, which exhibits sculptor Salvatore Rizzuti works. Earlier Signoria palace was used as a prison until the unification of Italy until the early 12th century and is known to the locals as the old prison. It is located in the upper part of Caltabellotta, called Terra vecchia, the area rich in history and monuments. Later from the postwar period onwards it was partially used as a municipal warehouse. The façade is simple.</description>
+        <styleUrl>#icon-1636-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.215785,37.5773394,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monastero e Chiesa di San Pellegrino</name>
+        <description>Monastery and Church of San Pellegrino (San Pelegrino Monastero e Chiesa di San Pellegrino), Via S. Pellegrino, 92010 Caltabellotta. A massive convent building from the 17th century stretches on the flank of the rock as the compact structure on the site, where the legend places the story of the triumph of the holy bishop over the devouring dragon. The church has the beautiful façade, which features by a splendid Baroque style portal embellished by a decorated medallion.</description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            13.2094717,37.5782349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Cattedrale di Sant'Agata]]></name>
+        <description><![CDATA[Cathedral of Sant'Agata (Cattedrale di Sant'Agata), Piazza del Duomo, 95100 Catania tel. +39 095 320 044 [4]. Duomo is imposing and worth a visit.]]></description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.08819,37.5024874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Monastero dei Benedettini di San Nicolò l'Arena]]></name>
+        <description><![CDATA[Benedictine monastery Monastero dei Benedettini di San Nicolò l'Arena, Piazza Dante Alighieri, 32, 95124 Catania, tel. +39 095 710 2767, [6]. Now it hosts the Faculty of Literature of the University of Catania, the oldest in Sicily. That building used to be one of the biggest monasteries in Europe.]]></description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.0800958,37.5036994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castello Ursino</name>
+        <description>Castle Ursino, (Castello Ursino), Piazza Federico di Svevia, 95121 Catania, tel. +39 095 345 830, [7]. Great medieval construction near centre that hosts the Civic Museum.</description>
+        <styleUrl>#icon-1598-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.0844932,37.4991663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of Saint Benedict</name>
+        <description>Church of Saint Benedict (Chiesa di San Benedetto), Via Teatro Greco, 2, 95124 Catania tel.+39 349 5023822 [8]. Itself church building is a masterpiece of Baroque architecture.</description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.0846845,37.5032829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castello Saraceno Casteltaormina</name>
+        <description>Castello Saraceno Casteltaormina, Via Crucis - Stairs to the castle of Taormina, Salita Castello, 98039 Taormina. It is reachable by 20-minute walk up Via Crucis footpath to the church of the Madonna della Rocca. This castle is seen above the church bell towers.</description>
+        <styleUrl>#icon-1598-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.2845961,37.8544428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Church of Saint Catherine of Alexandria</name>
+        <description><![CDATA[Church of St. Catherine of Alexandria (Chiesa di Santa Caterina d'Alessandria). It was built in Baroque style in 17th century.]]></description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.2883146,37.8538282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Basilica of Saint Lucia 'al Sepolcro']]></name>
+        <description><![CDATA[Catacomba E Sepolcro Di Santa Lucia, Piazza Santa Lucia, 96100 Siracusa, tel.+39 093 164 694. It was situated in the earlier stone quarry arranged into the basement widely exploited in the Greek-Roman era.<br><br>Church of Saint Lucia 'al Sepolcro, Via Luigi Bignami, 1, 96100 Siracusa, tel.+39 093 167 946, [3]. Byzantine church built, according to tradition, in the same place of the martyrdom of the saint in 303 AD. It has lots of restorations. The current appearance is from the 15th-16th centuries. The most ancient parts still preserved include the portal, the three half-circular apses and the first two orders of the belfry. Behind the altar you can see the „Burial of Saint Lucy“, the masterpiece painted by Caravaggio in 1608.]]></description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.2918646,37.0729161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cathedral of the Nativity of Holy Mary / Cathedral of Syracuse</name>
+        <description>Cathedral of Syracuse (Chiesa Cattedrale Natività di Maria Santissima), Piazza Duomo, 5, 96100 Siracusa, tel.+39 093 165 328. It was built in the 7th century over the Temple of Athena (5th century BC). This was a Doric temple with columns, that still can be seen incorporated in the walls of the current church.</description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.2933593,37.0596724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basilica di Maria Santissima Annunziata (Madonna di Trapani)</name>
+        <description>The magnificent Basilica-Sanctuary of Maria Santissima Annunziata (also called Madonna di Tràpani) originally built in 1315-1332 and rebuilt in 1760. It houses a marble statue of the Madonna of Tràpani, which might be the work of Nino Pisano</description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            12.5424877,38.0192185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Museo Archeologico Eoliano L. Bernabo' Brea']]></name>
+        <description><![CDATA[Museo Archeologico Regionale Eoliano, Via Del Castello (in the old castle), +39 0909880174-0594. Open daily, closed 1:30-3:00PM; small fee. A spectacular (if limited in breadth) collection of artifacts recovered from archaeological sites in the Aeolian Islands, including many from shipwrecks. You'll see more amphorae and burial urns here than you thought existed in the modern world. Most exhibits have English-language captions. Photography generally not permitted.]]></description>
+        <styleUrl>#icon-1636-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            14.9572754,38.46722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forte Gonzaga</name>
+        <description>Castle Gonzaga (Forte Gonzaga), Via Montepiselli, 98124 Messina, ☎ +39 347 646 0615, [x]. It is irregular star shape castle with the bastions surrounded by a moat fortification of a 16th century overlooking Messina city. At the time it was built outside the city walls. edit</description>
+        <styleUrl>#icon-1598-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.5407751,38.1881287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forte del Santissimo Salvatore</name>
+        <styleUrl>#icon-1598-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            15.5643838,38.1970323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chiesa Santissima Annunziata dei Catalani</name>
+        <styleUrl>#icon-1670-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            15.5562732,38.1912477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basilica Santissimo Salvatore e Torre Belvedere</name>
+        <description>Basilica Santissimo Salvatore e Torre Belvedere, Via Vincenzo Gioberti, Noto. Basilica and benedictine convent. There is possible to climb the bell tower, the highest vantage point, with a breathtaking view of Noto. Also, there is guided tour of the belvedere tower.</description>
+        <styleUrl>#icon-1670-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            15.0719434,36.8914798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mdina Cathedral Museum‏</name>
+        <description><![CDATA[holds two works by Caravaggio who was briefly himself a Knight, one of them being his masterpiece the famous huge "Beheading of St. John the Baptist."<br>https://wikitravel.org/en/Valletta]]></description>
+        <styleUrl>#icon-1671-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            14.4040337,35.8860295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grandmaster Palace Courtyard‏</name>
+        <description><![CDATA[The Palace of the Grand Masters [2] now is the President's office and the Maltese parliament. The staterooms, when accessible are quite impressive. It also houses the Knights' armoury which is open to visitors daily from 9am–5pm. (However, all other parts of the palace are closed to visitors, so what they can see is limited.) At the entrance you can receive an audio guide which is included in the entrance fee. It provides you with further historical information about the various armoury of different eras beginning from the medieval chain mail up to the 17th century armour.]]></description>
+        <styleUrl>#icon-1671-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            14.5138645,35.8984755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>המוזיאון הארכאולוגי הלאומי</name>
+        <description>The National Museum of Archaeology Even though Malta has an impressive and unique ancient history this museum housed in the former Auberge de Provence in Republic street can be rather a disappointment. The museum is currently partially being renovated hopefully bringing something more worthy of its name. Auberge de Provence, Republic St, Tel: 2122 1623.</description>
+        <styleUrl>#icon-1671-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.51113,35.897445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Library of Malta‏</name>
+        <description><![CDATA[The National Library is an evocative old library on Republic Square, next to the Grandmaster's Palace. Only part of it is open to the public: you will need to take a Passport or other Photo ID to get in. The entire archives of the Knights of St. John from the Crusades in the 11th century until 1798 when Napoleon took Malta, are kept here, in true Maltese style in rickety wooden filing cabinets. They were proud to mention that recently a sprinkler system had been installed to protect this priceless collection.]]></description>
+        <styleUrl>#icon-1671-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.5134743,35.8982694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ארמון האינקוויזיטור</name>
+        <description><![CDATA[The Inquisitor's palace[1] Main Gate Street, 2182 7006. This small but very impressive palace has been recently restored and contains exhibits relating to the history of the Roman Inquisition and the Catholic church in Malta. The 5 Euro price tag is a little steep, but worth it to those interested in the architecture and historical elements.]]></description>
+        <styleUrl>#icon-1671-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            14.5224783,35.8871856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>כנסיית לורנצו הקדוש</name>
+        <styleUrl>#icon-1670-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.5213788,35.8873167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malta Maritime Museum‏</name>
+        <description>The Maritime museumEx-Naval Bakery, Vittoriosa Quay, 2166 0052. [2] is well presented, and though not up to the standard of the great maritime museums (such as Greenwich in London) is worth a visit.</description>
+        <styleUrl>#icon-1671-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            14.52068,35.8877091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[מבצר סנט אנג'לו]]></name>
+        <description>ort St. Angelo and the area around it is possibly -the- hidden gem of Malta</description>
+        <styleUrl>#icon-1671-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.517839,35.8924685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe Du Brazil‏</name>
+        <styleUrl>#icon-1577-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.522134,35.8882183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marsaxlokk‏</name>
+        <description>עיירת דיג</description>
+        <styleUrl>#icon-1720-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            14.5427735,35.8422063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>קתדרלת פאולוס הקדוש</name>
+        <description>t Pauls Cathedral The cathedral was built after the earthquake of 1693 destroyed the original Norman structure built in the 12th century. Like the Cathedral of St. John in Valletta its floor is covered with intricately inlaid marble gravestones belonging to Maltese aristocracy. Also noteworthy is the impressive wallpainting at the back of the cathedral depicting the shipwrecking of st Paul on Malta. Interestingly the face has two clocks (one for time and one for date). There is an apocryphal (though much repeated and widely published) story that the reasoning was to have one clock which showed the correct time and one which serves to confuse the devil.</description>
+        <styleUrl>#icon-1670-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.4039146,35.8863679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bacchus Restaurant‏</name>
+        <styleUrl>#icon-1577-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.4026282,35.8848756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontanella Tea Garden</name>
+        <styleUrl>#icon-1517-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.4037212,35.8871467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Xara Palace Relais & Chateaux]]></name>
+        <styleUrl>#icon-1602-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.404168,35.885151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ġnejna Bay‏</name>
+        <description><![CDATA[Gnejna Bay, Gnejna Bya, Mgarr (A straightforward 30 minute walk from Mgarr that's well sign posted). The most underrated Blue Flag beach on the island, Gnejna Bay is a quiet sandy beach used predominantly by local residents. Reach it via 30 minute countryside walk from Mgarr that takes in forts and old castellos. Be wary of the return walk uphill if travelling with small children. The water is spectacular and there is ample opportunity to climb and explore. Local fisherman attempt to catch sea bream and will happily give you an overview of Malta's fishing industry. There are toilets and changing facilities on site maintained to a decent standard. Compared to Golden Bay this is not a tourist beach so be sure to bring your own refreshments]]></description>
+        <styleUrl>#icon-1720-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            14.3424613,35.9209421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Il-Barri Restaurant</name>
+        <styleUrl>#icon-1577-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.3669247,35.9195693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tal-Ingliz Restaurant</name>
+        <styleUrl>#icon-1577-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.365929,35.9198447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Basilica Kolleġġjata u Proto-Parroċċa ta' San Pawl‏]]></name>
+        <description><![CDATA[St. Pauls' church with St. Paul's grotto, where the saint apparently lived after being shipwrecked on his way to being put on trial in Rome. Pope John Paul II visited this place of pilgrimage in 1990. One can take the underground passage from here to the Wignacourt Museum.]]></description>
+        <styleUrl>#icon-1670-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.3991413,35.8818011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Is-Serkin - Crystal Palace Bar</name>
+        <styleUrl>#icon-1577-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.4004662,35.8844662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>קטקומבות סן פול</name>
+        <styleUrl>#icon-1671-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.397524,35.8804921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomaso Business Tower‏</name>
+        <description><![CDATA[Portomaso Business Tower, Portomaso, St Julian's, Malta, [x]. The tallest building in Malta at 93m tall. The building is 23 floors high and has a Restaurant on the 22nd floor. edit]]></description>
+        <styleUrl>#icon-1671-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.4922262,35.9219957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ta' Kris]]></name>
+        <styleUrl>#icon-1577-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.5063778,35.9091173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vecchia Napoli</name>
+        <styleUrl>#icon-1577-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.4971648,35.9145732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotel Malta</name>
+        <styleUrl>#icon-1602-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.4966403,35.9144432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ta' Rikardu Restaurant]]></name>
+        <styleUrl>#icon-1577-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.2397357,36.046338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St George's Basilica]]></name>
+        <styleUrl>#icon-1670-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.2390604,36.0439725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[חג'ר אים]]></name>
+        <styleUrl>#icon-1671-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.4417664,35.8277061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[חג'ר אים]]></name>
+        <styleUrl>#icon-1604-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.4417664,35.8277061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Bay</name>
+        <styleUrl>#icon-1720-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.3444612,35.9338697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Għajn Tuffieħa‏</name>
+        <description><![CDATA[Għajn Tuffieha - "Long Steps Bay", just behind Golden Bay. Just as beautiful, but less crowded during the high season.]]></description>
+        <styleUrl>#icon-1720-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            14.351552,35.9321743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Grotto‏</name>
+        <description>Blue Grotto - A series of seven caves and inlets on the southern side of Malta famous for deep blue waters and spectacular natural rock formations. The Blue Grotto may be accessed by small traditional boats, skippered by cheerful Maltese guides, which leave from a well-signposted pier just off the main road along the south coast. The boat ride costs €8 per person.</description>
+        <styleUrl>#icon-1681-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            14.4574093,35.8208561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saint Thomas Bay‏‏</name>
+        <description><![CDATA[Saint Thomas Bay - A quaint inlet, 1km beyond Marsaskala, with a sloping, built up area on one side, and barren Munxar white cliffs on the other. There are 2 small sandy beaches ideal for swimming in summer. Beneath Munxar there is now a 'window' at the cliff side. Beyond Munxar Point there are amazing, very high, white cliffs, with 2 large and deep caves in them. Many amateur fishermen own boathouses in the vicinity and go fishing whenever the sea is calm.‏]]></description>
+        <styleUrl>#icon-1681-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            14.5662556,35.851859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St. Peter's Pool]]></name>
+        <styleUrl>#icon-1720-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.5621187,35.8331286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mosta Dome B&B‏]]></name>
+        <description><![CDATA[Mosta Dome - the third largest dome in Europe and the ninth largest dome in the world. On 9 April 1942, a bomb struck the church whilst a religious ceremony was taking place with more than 300 people attending. Luckily the bomb didn't explode.]]></description>
+        <styleUrl>#icon-1671-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.4267681,35.9102172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>קומינו</name>
+        <styleUrl>#icon-1720-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.3355527,36.0100996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ix-Xatt at one80‏</name>
+        <description>Ix-Xatt tal-Imgarr - Not to be confused with Mgarr, Malta, this is where the Gozo ferry docks. The areas has plenty of seaside restaurants specialising in fish and seafood.</description>
+        <styleUrl>#icon-1720-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            14.2975168,36.0261475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ghajnsielem‏</name>
+        <description><![CDATA[Ghajnsielem - A sleepy village that is on the hill above Mgarr which is mostly residential and boasts a healthy village life.<br>Xaghra - where the Ġgantija Temples, Ninu's Caves, a Toy Museum, the Calypso Caves and Ramla Bay are located.]]></description>
+        <styleUrl>#icon-1671-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.28641,36.0257218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nadur‏</name>
+        <description><![CDATA[Nadur - the largest village in Gozo. Situated on one of the island's highest points, it boasts two Watch Towers and a Maritime museum, as well as the beautiful sandy San Blas beach and Dahlet Qorrot beach.]]></description>
+        <styleUrl>#icon-1604-097138</styleUrl>
+        <Point>
+          <coordinates>
+            14.2929803,36.0380524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Xewkija‏</name>
+        <description><![CDATA[Xewkija - featuring an impressive large rotunda church, the Mgarr ix-Xini watch tower and the beautiful Mgarr ix-Xini beach.<br>Għarb and Għasri are 2 small villages in the western part of Gozo between which lies the 'Ta` Pinu' basilica, a Marian shrine built on the spot where on 22nd June 1883 the Virgin Mary was heard by Karmela Grima calling for prayers.]]></description>
+        <styleUrl>#icon-1671-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            14.2608044,36.0321998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מפרץ רמלה</name>
+        <styleUrl>#icon-1681-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.2841125,36.0614643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Hole</name>
+        <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.1886111,36.0527778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kempinski Hotel San Lawrenz Malta</name>
+        <styleUrl>#icon-1602-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.2084125,36.0533558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>P29 Wreck</name>
+        <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.3270559,35.988491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rozi Wreck‏</name>
+        <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.3271001,35.989077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Um El-Faroud Wreck</name>
+        <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.449757,35.819057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>P31 Wreck</name>
+        <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.328295,36.0075076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Maria Caves</name>
+        <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            14.3401737,36.0180485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Urban (landmarks, streets, markets, shops etc)</name>
+      <Placemark>
+        <name>Via Atenea</name>
+        <description><![CDATA[Part of old Agrigento<br><br>Via Atena has a range of small shops and throngs with locals during the evening passeggiata.]]></description>
+        <styleUrl>#icon-1833-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            13.5820245,37.3109315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oleificio Agnellaro di Terrasi Rosa</name>
+        <description>Agnellaro di Terrasi Rosa Oil pressing company (Oleificio Agnellaro di Terrasi Rosa), Contrada Agnellaro, 92021 Aragona AG, ☎ +39 092 259 1323, [x]. Buy High-quality oil at any time of the year. Visit to see first-hand olive oil is made. edit</description>
+        <styleUrl>#icon-1684-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            13.6389144,37.3740655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazza del Duomo</name>
+        <description>just below the Piazza del Duomo are a lively and colorful place to visit. This fish market is the busiest and most exotic of all over Sicily and has been described by the British TV chef Rick Stein as the best fish market in the world. Monday to Saturday morning only.</description>
+        <styleUrl>#icon-1833-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            15.0874745,37.5022684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Etnea</name>
+        <description><![CDATA[Every morning, except Sundays a bustling food and clothes market off Via Etnea<br><br>Via Etnea - the main shopping avenue, running North from the Piazza del Duomo has most of the city's imposing building and is busy throughout the day and evening. Lots of churches. This road is the equivalent of Las Ramblas in Barcelona, so in the evenings the local people put on their Sunday clothes and walk at a relaxed pace along this avenue.]]></description>
+        <styleUrl>#icon-1833-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            15.0871153,37.503894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>I Fanghi di Vulcano</name>
+        <description><![CDATA[Laghetto di Fanghi is a celebrated "mud bath" close to the dock. A small fee (entrance €2, shower €1) is charged to enter this area, which is based on natural hot springs both inland and in shallow offshore waters. Bathers use the former to cover themselves in mud (reputed to have therapeutic powers) and then go into the spring-warmed sea to wash off. Swimsuits are not optional here, and it's a good idea to use a suit that you won't be wearing in more conventional settings for a while (and that you can bag in some airtight container after use), as a sulfurous odor will continue to emanate from the suit for some time after you exit the baths.]]></description>
+        <styleUrl>#icon-1697-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            14.9595505,38.4162335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Outdoors</name>
+      <Placemark>
+        <name>Valley of the Temples</name>
+        <description><![CDATA[The Valley of Temples [3] is an archaeological area and a UNESCO World Heritage Site. It stretches along a ridge to the south of the city are a string of five Greek temples, a sight worthy of comparison to the Acropolis itself in Athens. The temples are usually divided into two zones: the Eastern Zone and Western Zone each side of the main entrance and the road from the city centre. It can get punishingly hot in summer and there is little shade other than some olive trees along the ridge itself. Entrance costs €12 plus extra for an audio tour (€5) or a simple map (€1,20) (October 2018). Note that the entrance is free on the first Sunday of a month but the waiting time can be much longer.<br><br> -The first temple east of the entrance is the Tempio di Ercole or Temple of Hercules - long, thin and about 1/3 standing. It is the oldest of the temples, built towards the end of the 6th century BC. Next to it are some interesting deep ruts formed by ancient carriages.<br> - Next heading east is the large Tempio della Concordia or Temple of Concord - a very impressive almost complete structure built around 440-450 BC.<br> - The track the continues above small cliffs at the edge of the ridge to the Tempio di Giunone or Temple of Juno. Partially ruined, it offers a great spot to look back down the ridge to the other temples.<br> - To the west of the main entrance is the massive Tempio di Giove or Temple of Jupiter which was never completed and is now in ruins with little structure visible. Most notable is one of the huge stone statues now lying on the ground.<br> - Behind this is the small ruined Tempio dei Dioscuri or Tempio di Castore e Polluce (Temple of Castor and Pollux).<br> - Beyond the main temple site is the small, but interesting Tomba di Terone.<br> - Garden of the Kolymbetra within the Valley of the Temples and not far from the temple of the Dioscuri.<br><br>To put all these sights in context, it is well worth visiting the Archeological Museum (half way back into the city centre) and the adjacent Roman Quarter (with a few nice mosaics). Daily guided tours of the Valley of the Temples can be hired from Visit Agrigento [4] though an audio tour is available at the entrance to the temples. (Some ID is required as security for these, which means walking back the entire length of the site just to give the guide back).<br><br>To get to the valley of the temples by public transport, take bus 1, 2 or 3 from the square outside the train station. You can bus tickets from the bar in the station.]]></description>
+        <styleUrl>#icon-1855-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            13.5937011,37.2923664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giardino della Kolymbethra</name>
+        <description>Garden of the Kolymbetra within the Valley of the Temples and not far from the temple of the Dioscuri.</description>
+        <styleUrl>#icon-1720-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            13.5818532,37.2915808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capo Bianco</name>
+        <description>Capo Bianco. Heraclea Minoa hardly can be imagined without this white Capo Bianco cliff and the sandy beach laying next to it.</description>
+        <styleUrl>#icon-1596-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            13.2732382,37.3894146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riserva Naturale Orientata Foce del Fiume Platani</name>
+        <description>Nature Reserve at the Mouth Of The Platani River (Foce Del Fiume Platani), Ribera. The river Platani represents an excellent corridor for the resting and nesting of many species of birds during the migration.</description>
+        <styleUrl>#icon-1596-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            13.2686559,37.4077554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torre Salsa Natural Reserve - Visitor Center</name>
+        <description>Torre Salsa Nature Reserve (Riserva Naturale Orientata Torre Salsa), SP75, 92010 Siculiana. [3]. The Oasis is open to the public all year round, access is free. For guided tours it is advisable to make an appointment at the Reserve office.</description>
+        <styleUrl>#icon-1596-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            13.4232409,37.337333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Archaeological Area of Eraclea Minoa</name>
+        <description>Archaeological Area of Eraclea Minoa, Contrada Minoa, 92011 Cattolica Eraclea. The archaeological site locates the ruins of the ancient city during the hellenistic period. It is possible to admire the Greek Theatre and the excavations of the ancient city.</description>
+        <styleUrl>#icon-1855-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            13.2805771,37.3942706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tempio di Hera (Tempio E)</name>
+        <description><![CDATA[The Selnius complex is large and impressive, with excellent views over the coastline beyond.<br><br>There are three temples near the entrance: one imposingly re-erected, one partially rebuilt and one a huge pile of stone columns and lintels.<br><br>Further on is the Acropolis - the former city has some monumental protective walls, especially impressive is the North Gate. Inside are another four temples, again in varying states of repair.]]></description>
+        <styleUrl>#icon-1855-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            12.8348202,37.586617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Etna</name>
+        <description><![CDATA[https://wikitravel.org/en/Mount_Etna<br><br>The mountain has an eerie volcanic landscape, with solidified "rivers" of lava. It is used for skiing in winter, so be prepared for the cold at this altitude, even in summer. Even in good weather in summer, sometimes the top of the mountain is covered in cloud, especially during the afternoon, obscuring the wonderful views.]]></description>
+        <styleUrl>#icon-1596-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            14.9934349,37.751005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Archaeological Complex Terme della Rotonda</name>
+        <description>Archaeological Complex Terme Della Rotonda (Complesso Archeologico Terme della Rotonda), Via della Mecca, 95124 Catania, tel. +39 095 715 0508. A unique design of the structure, built in 1- 2nd century.</description>
+        <styleUrl>#icon-1855-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            15.082774,37.5040669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Temple of Apollo</name>
+        <description>Apollo temple (Tempio di Apollo), Largo XXV Luglio, 96100 Siracusa [2]. Temple is located in the northern part of the island of Ortygia. It is is the earliest example of monumental stone architecture in Sicily.</description>
+        <styleUrl>#icon-1855-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            15.2930366,37.0638837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arethusa Spring</name>
+        <description>Arethusa Spring (Fonte Arethusa), Largo Aretusa, 96100 Siracusa. Spring of Arethusa is a pond surrounded by papyrus reeds and formed by a freshwater spring near the sea. Ancient myth says that the nymph, Arethusa, fled from Greek river-god Alpheios and fell into the sea. She resurfaced in Ortygia in the old town of Syracuse.</description>
+        <styleUrl>#icon-1720-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            15.2929282,37.0572976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gran Cratere</name>
+        <description><![CDATA[If you're a hiker, the trail to Fossa, the recently (~1890) active volcanic center, should not be missed. The round trip takes about 3 hours from the dock area and involves the gain of about 1300 feet of elevation. Several alternative routes exist once you've reached the top of the cone. The fumarole field on the west side of the crater (Gran Cratere) is fascinating if you can stand the smell (it's one of the few places on the earth's surface where you can view droplets of molten sulfur), but is best avoided if you have respiratory problems.]]></description>
+        <styleUrl>#icon-1596-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            14.9666667,38.4,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stromboli</name>
+        <description><![CDATA[Stromboli Volcano. This continuously active volcano is one of the few in the world where a visitor can see an eruption "up close and personal," yet in relative safety -- most of the time. However, conditions vary from year to year, and the summit region may be closed (as it was during spring-summer 2007) owing to unusual activity posing hazards to the climber. In most conditions you can hike unaccompanied to an elevation of 400 meters, but beyond this level you will need a guide. A reliable guide service is Magmatrek, Via Vittorio Emanuele, +39 090 9865768, [3], but there are other guide services in town that are also satisfactory. Guided walks cost 25-30 Euro. Don't climb without a guide; the access limitations are enforced (sporadically) and fines are substantial.The excursions leave in the afternoon (3 - 4 pm depending on the time of the sunset) and allow for around 40 - 60 minutes at the craters over the sunset. If it is cloudy at the top of the island, you should not bother climbing as you are unlikely to have sufficient visibility of the craters.]]></description>
+        <styleUrl>#icon-1596-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            15.2116482,38.7925026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Food</name>
+    </Folder>
+    <Folder>
+      <name>Drinks/nightlife</name>
+    </Folder>
+    <Folder>
+      <name>Day-trips and multi day stay</name>
+      <Placemark>
+        <name>Agrigento</name>
+        <description><![CDATA[Agrigento is a medium-sized city on the south coast of Sicily, Italy, famous for its Greek Valley of Temples. <br><br>https://wikitravel.org/en/Agrigento]]></description>
+        <styleUrl>#icon-1546-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            13.5857528,37.3088512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Licata</name>
+        <description><![CDATA[Licata is a fishing port and tourist location in the province of Agrigento, in the region of Sicilia, Italy. <br><br>Over the centuries name of the city has undergone many variations as Alukatos, Limpiadum, Limpiados, Lecatam, Cathal, Katta, Licatam, Leocata, Alicata. So, the real origin of the name causes a lot of disputes about it. Patron of the town is Sant'Angelo Martire. The Patron’s Day is celebrated twice per year, the first time on the 5th of May and the second time the first Sunday after the 15th of August. During the ceremony there are stands everywhere in the centre of the town. The urn of the saint is brought by the sailors through the all town. Licata was founded in 282 BC by Finzia, who, destroyed the nearby Gela and moved the inhabitants even the public inscriptions there. <br><br>https://wikitravel.org/en/Licata]]></description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            13.9373306,37.1017094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heraclea Minoa</name>
+        <description><![CDATA[https://wikitravel.org/en/Heraclea_Minoa<br>Heraclea Minoa is a small village on the south coast of Sicily, Italy, named after its Greek ruins.<br><br>- Beaches. There are many beaches around Eraclea Minoa along the coast as Capo Bianco Beach, Lido Bellevue or Garibaldi, also Spiaggia di Bovo Marina, which feature by an unspoilt nature, dropping down to the clear blue sea framed by white cliffs and sandy coastline with dunes. About 5 km coastline is backed by a thick pine wood nature. edit<br> - Forest. At the Capo Bianco Beach is situated the deciduous trees forest, enough small, but wonderful place for the refreshable area under the tree crowns. edit]]></description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            13.2912408,37.3942297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cianciana</name>
+        <description>https://wikitravel.org/en/Cianciana</description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            13.4327892,37.5213158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caltabellotta</name>
+        <description><![CDATA[Caltabellotta is a hilltop village in Sicily. It is set on the Mount "Kratas" and surrounded by the three peaks of Monte Pellegrino, Monte Castello and the Gogala cliff, what gives the beautiful views from there. <br><br>https://wikitravel.org/en/Caltabellotta]]></description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            13.2186148,37.5757496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sciacca</name>
+        <description><![CDATA[Sciacca is a small town of the south coast of Sicily, Italy, with remains of a city wall and a busy fishing port. <br><br>https://wikitravel.org/en/Sciacca]]></description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            13.0816305,37.5085148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Selinunte</name>
+        <description><![CDATA[Selinunte (full name Marinella di Selinunte) is a village on the south coast of Sicily, Italy most famous for the neighbor ruins of the Greek city of Selinus. <br><br>https://wikitravel.org/en/Selinunte]]></description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            12.8252177,37.5833724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mazara del Vallo</name>
+        <description><![CDATA[Mazara del Vallo is a medium-sized city in South-Western Sicily, most famous for being one of the leading fishing harbour of Italy and the centre where the Dancing Satyr is hosted. It is part of the province of Trapani. <br><br>https://wikitravel.org/en/Mazara_del_Vallo]]></description>
+        <styleUrl>#icon-1546-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            12.5899615,37.6550933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catania</name>
+        <description><![CDATA[https://wikitravel.org/en/Catania<br><br>Catania [1] is a city located on the eastern coast of Sicily at the foot of Mount Etna, the biggest volcano in Europe. It is the second largest city in Sicily with the metropolitan area reaching one million inhabitants, a major transport hub, economic centre and a university city where you will enjoy a busy downtown and an active nightlife. Catania is also well known for its particular baroque architecture and urban design (the downtown area is a World Heritage Site, along with all the Val di Noto), consequences of the great earthquake of 1693 after which the city had to be rebuilt, like most of eastern Sicily. <br><br> Every morning, except Sundays, two fascinating markets are held:<br>- a large fish market in a beautiful setting off Piazza del Duomo<br> - a bustling food and clothes market off Via Etnea]]></description>
+        <styleUrl>#icon-1546-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            15.0830304,37.5078772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taormina</name>
+        <description><![CDATA[https://wikitravel.org/en/Taormina<br><br>Taormina is a charming hillside town on the east coast of Sicily, Italy and is one of the island's main tourist resorts. Whilst Taormina can be hot and busy during July and August, crowded with Italian tourists, it is far more pleasant and (slightly) less busy during the rest of the year.]]></description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            15.2853127,37.8516366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Syracuse</name>
+        <description><![CDATA[https://wikitravel.org/en/Syracuse_(Italy)<br><br>Syracuse [1] (Siracusa) is a medium sized city in Sicily, Italy with an interesting mixture of ancient and modern. <br><br>Syracuse is a city on the eastern coast of Sicily and the capital of the province of Syracuse, Italy. It was once described by Cicero as "the greatest Greek city and the most beautiful of them all."<br><br>Syracuse is an ancient town on the sea, which was of great importance as Greek Syracuse. It has a well known archaeological zone and a historic centre on the island of Ortygia (Ortigia).<br><br>Patron saint of Syracuse, Santa Lucia or Saint Lucy is beloved by the Syracusans.<br><br>Syracuse is a pleasant town, with plenty to occupy tourists for at least a couple of days. It's also a good area for seeing the south-eastern corner of Sicily, including the Baroque towns of Ragusa and Noto, several archaeological sites, and the lively city of Catania.]]></description>
+        <styleUrl>#icon-1546-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            15.2865861,37.0754739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cefalù</name>
+        <description><![CDATA[https://wikitravel.org/en/Sicily<br><br>Cefalù — a small panoramic seaside village with Arab-Norman Cathedral (UNESCO World Heritage)]]></description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            14.0174436,38.0337046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Favignana</name>
+        <description><![CDATA[https://wikitravel.org/en/Favignana<br><br>Favignana is an island and city in the Aegadian Islands, 7 kilometers off the Sicilian coast.<br><br>Favignana is the largest of the three principal Aegadian Islands just off the coast of northwestern Sicily. It is served by frequent ferry services from the nearby port of Trapani.<br><br>With a history stretching back to ancient times, a decisive battle between the Romans and Carthaginians was fought off its coast in 241 BC.<br><br>Starting in the 18th century Favignana's main industry was tuna fishing, for which the area is still renowned. A former tuna processing center owned by the influential Florio family today serves as a museum and tourist attraction.<br><br>It has become a popular tourist destination due to its surrounding turquoise waters, plentiful sun and slower pace of life.]]></description>
+        <styleUrl>#icon-1681-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            12.3286129,37.9310758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Levanzo</name>
+        <description><![CDATA[https://wikitravel.org/en/Levanzo<br><br>Levanzo is one of the most beautiful islands in Italy. It is surrounded by the blue or green waters of the Mediterranean Sea. The locals lead a peaceful lifestyle here.<br>In the ancient times, Levanzo was known by various names, such as Buccina and Forbantia(plant name). The current name origin is unclear, there are several hypothesis on this point.]]></description>
+        <styleUrl>#icon-1681-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            12.3320708,37.9996877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trapani</name>
+        <description><![CDATA[https://wikitravel.org/en/Trapani<br><br>Trapani [1] is a medium-sized city near the North-West corner of Sicily, Italy.]]></description>
+        <styleUrl>#icon-1546-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            12.5365171,38.0173505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lipari</name>
+        <description><![CDATA[https://wikitravel.org/en/Lipari<br><br>Lipari is the largest and most populous of the Aeolian Islands of Italy. It is the primary transportation gateway for the Aeolians, and has some attractions of its own. <br><br>Trekking<br><br>The Island of Lipari is ideal for trekking. There are many routes on the island from easy to hard level. The level of difficulty depends on the season. Some tracks are very hard or almost impossible to follow during summer because of the heat. There are maps to be bought on Lipari but one has to ask local people to find some of the tracks.<br><br>A short walk downhill can be done on the road from Quattropani to Acquacalda on the north side of Lipari. This can be done even during summer and takes about 45 minutes. You enjoy the view of Salina and the northern Aeolian islands during this walk. From the Old Kaolin Mine between Pianoconte and Quattropani it is possible to walk to the thermal bath of San Calogero or to the village of Quattropani. Downhill near the sea there is the ruin of a Saracen tower and fifthy meters away it is possible to walk down on the black clifs for a bath. Do these to walks during springtime. From Marina Corta there is a track up to Monte Gallina and Monte della Guardia. You reach the west side of the island and will enjoy the two Faraglioni from upside. You are able to reach the street that takes you from the vulcanologic observatory in front of Vulcano, back to Lipari town. You should do this hike late afternoon during summer. During afternoon in summer you can also make a walk from the church of Santa Lucia in Lipari to Valle Muria, the beach on the west side of Lipari.]]></description>
+        <styleUrl>#icon-1681-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            14.9540868,38.464842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vulcano</name>
+        <description><![CDATA[https://wikitravel.org/en/Vulcano<br>Vulcano ([1] -- Italian) is one of the Aeolian Islands. Famous for its mud baths, the island literally smells like rotten eggs (sulfur). Odor or no odor, it's an interesting place to visit for the traveler interested in geology and hiking, not to mention soaking in some rays on the beaches.]]></description>
+        <styleUrl>#icon-1681-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            14.970634,38.3946132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stromboli</name>
+        <description><![CDATA[https://wikitravel.org/en/Stromboli<br><br>the most remote of the islands, it is little more than a volcano rising out of the sea. Popular for trips out at night to see magma spurting out of the cone.<br><br>Stromboli is a small Italian volcanic island in the Tyrrhenian Sea just north of Sicily. It is one of the Aeolian Islands. Is is an incredibly beautiful, unique island.<br><br>The island is a single 900 m high volcano, with an area of only 12.6 square kilometres. The volcano is constantly active, and spews lava and rocks down one side of the island. The result is that there are two towns on the parts of the island that are unaffected by the lava flow; Stromboli (the main town) and the smaller Ginostra.<br><br>The island is strikingly beautiful and unique. It is a near-symmetrical triangular shape, and the constant volcano activity means that it often emits a stream of smoke from its craters. At night, you can often see explosions of lava from the observatory that is a 10 minute walk out of town.<br><br>Two kilometres northeast of Stromboli is the small, uninhabited sister island Strombolicchio.<br><br>The island essentially closes down in the colder months from the end of October until it warms up again. During this time, there are almost no hotels open, the restaurants close down, and only one or two cafes and the small supermarket remain open. It is also virtually impossible to find a guide to take you to the crater unless you have arranged a private excursion prior. It is possible to visit the island during this time, but be prepared to fend for yourself.]]></description>
+        <styleUrl>#icon-1681-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            15.214917,38.7925148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panarea</name>
+        <description><![CDATA[https://wikitravel.org/en/Panarea<br>a smaller, upmarket island with great views across to Stromboli.<br><br> If a hiker, check out the Bronze Age ruins a short-to-medium (5-km round trip) walk from the dock, at the entrance to a nature reserve. No amenities, and the ruins are largely unexcavated; you'll be reminded more of the austere sites of the American Southwest than of the glories of Rome.<br> Rent a small boat in the port and make a tour around the island, but be aware that the currents at the northern and southern tips of Panarea are strong. Or, go across the sea to the islet of Basiluzzo, or the nearer islets of Lisca Bianca and Lisca Nera, all of which offer inlets to drop anchor and enjoy the fine clear water.]]></description>
+        <styleUrl>#icon-1681-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            15.0645091,38.6374514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Messina</name>
+        <description><![CDATA[https://wikitravel.org/en/Messina<br><br>Messina [1] is in the northeast of Sicily, Italy. It is only 5 km across the Straits of Messina to the region of Calabria on the mainland.]]></description>
+        <styleUrl>#icon-1546-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            15.5542057,38.1937335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Novara di Sicilia</name>
+        <description>Novara di Sicilia - Located in the province of Messina on the northern side of Mt. Etna, this picturesque medieval town is nestled in the mountains overlooking ancient Tyndaris and Abacaenum. It is the archetype of a typical medieval town, with its friendly and accommodating people who speak a distinctive dialect.</description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            15.1308416,38.0160236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noto</name>
+        <description><![CDATA[https://wikitravel.org/en/Noto<br><br>Noto is in Sicily, Italy. Noto is listed as UNESCO World Heritage site.<br>Understand<br><br>Noto was destroyed by an earthquake in 1693 and was rebuilt in another site in Baroque style. So, the old town, Noto Antica, lies 8 kilometers (5 mi) directly north on Mount Alveria at the foot of the Iblean Mountains in Val di Noto. Nowadays Noto is situated on the Asira river bank, 7 km from the seashore.]]></description>
+        <styleUrl>#icon-1604-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            15.0651945,36.8924433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
