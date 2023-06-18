@@ -31,7 +31,6 @@ dest = wt.page(COUNTRY)
 parsed = wtp.parse(dest.wikitext)
 
 scrape = {}
-import ipdb;ipdb.set_trace()
 for section_name in SECTIONS:
     section = find_section_by_title(parsed.sections, SECTIONS[section_name])
     links = get_section_wikilinks(section)

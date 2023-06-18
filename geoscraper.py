@@ -23,7 +23,6 @@ soup = BeautifulSoup(wiki_page.html, 'lxml')
 
 
 def get_section(section_name):
-    #import ipdb;ipdb.set_trace()
 
     section_header = soup.find("span", {"id" : section_name})
     next_header = section_header.parent.find_next_sibling("h2")
@@ -45,7 +44,6 @@ def get_locations_coords(doc):
     location_coords = {}
 
     #for bdi in soup.find_all("span", {"class" : "vcard"}):
-    #import ipdb;ipdb.set_trace()
 
     for bdi in doc.find_all(class_="vcard"):
 
@@ -69,8 +67,6 @@ def get_locations_coords(doc):
 
 
 def get_locations_coords_by_section(section_name='See'):
-    #import ipdb;ipdb.set_trace()
-
     section = get_section(section_name)
     location_coords_dict = get_locations_coords(section)
     return location_coords_dict

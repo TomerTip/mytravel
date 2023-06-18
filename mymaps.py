@@ -11,13 +11,11 @@ def get_best_location_estimation(gmaps_result):
 
 gmaps = googlemaps.Client(key='')
 
-import ipdb;ipdb.set_trace()
 # Geocoding an address
 city = "Rio De Janiero"
 place = "Ipanema"
 lat, long = ('-22.987', '-43.213')
 
-import ipdb;ipdb.set_trace()
 
 place_result = gmaps.places_autocomplete_query(input_text=f'{city}, {place}', location=f'{lat},{long}')
 place_result = get_best_location_estimation(place_result)

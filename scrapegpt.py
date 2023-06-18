@@ -23,7 +23,6 @@ data = []
 for coordinate_element, name_element in zip(coordinate_elements, name_elements):
     #lat, lon = coordinate_element.text.strip().split(';')
     lat, lon = 1,1
-    import ipdb;ipdb.set_trace()
     name = name_element.text.strip()
     data.append((name, float(lat), float(lon)))
 

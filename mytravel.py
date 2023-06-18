@@ -19,7 +19,6 @@ def get_locations_from_section(section):
     titles = []
     # Wikilist
     for wikilist in section.lists():
-        #import ipdb;ipdb.set_trace();
 
         bolds = wtp.Section(wikilist.string).get_bolds()
         if len(bolds) != 0:
@@ -37,12 +36,11 @@ def get_locations_from_section(section):
 API_URL = "http://en.wikivoyage.org/w/api.php"
 wt = MediaWiki(url=API_URL)
 
-COUNTRY=""
-CITY="Palermo"
+COUNTRY="Brazil"
+CITY="Rio De Janiero"
 DEST = CITY + ", " + COUNTRY
 print ("Scraping " + DEST + "...")
 
-#import ipdb;ipdb.set_trace();
 dest = wt.page(DEST)
 parsed = wtp.parse(dest.wikitext)
 
@@ -50,6 +48,7 @@ parsed = wtp.parse(dest.wikitext)
 scrape = {}
 for section_name in SECTIONS:
     section = find_section_by_title(parsed.sections, SECTIONS[section_name])
+    print(section)
     locations = get_locations_from_section(section)
     scrape[section_name] = locations
 
